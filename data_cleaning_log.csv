@@ -1,0 +1,3 @@
+step,column_affected,action_taken,reason,rows_before,rows_after
+1,all columns,checked for missing values and duplicate rows,identify data quality issues before preprocessing,1500,1500
+3,"Belief_Score, Emotion_Intensity_Score, Engagement_Likes, Engagement_Shares","flagged outliers using IQR method (1.5x IQR bounds), no rows removed at this stage",assess presence of extreme values in numeric predictors before modelling,1500,1500

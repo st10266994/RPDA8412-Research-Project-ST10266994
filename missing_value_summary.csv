@@ -1,0 +1,15 @@
+column,missing_count,missing_pct
+Sample_ID,0,0.0
+Source_Type,0,0.0
+Platform,0,0.0
+Content_Text,0,0.0
+Metaphor_Type,0,0.0
+Emotion_Evoked,0,0.0
+Political_Topic,0,0.0
+Participant_ID,0,0.0
+Belief_Score,0,0.0
+Emotion_Intensity_Score,0,0.0
+Belief_Label,0,0.0
+Engagement_Likes,0,0.0
+Engagement_Shares,0,0.0
+Date_Posted,0,0.0

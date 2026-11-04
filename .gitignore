@@ -1,0 +1,12 @@
+# Virtual environments
+research-env/
+venv/
+.venv/
+
+# Model output
+bert_output/
+
+# Python and Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
