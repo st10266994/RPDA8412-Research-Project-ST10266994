@@ -96,21 +96,20 @@ Each record is one piece of political misinformation text with its metaphor type
 
 ## 📚 Code attribution
 
-
-| Source | Used for | In-text citation |
-|---|---|---|
-| Python | Standard library modules `os` and `re` | (Python Software Foundation, 2026) |
-| pandas | Loading, cleaning and summarising the dataset | (The pandas Development Team, 2026) |
-| NumPy | Numeric operations and fixed random seed | (NumPy Developers, 2026) |
-| Matplotlib | Saving all figures | (Matplotlib Development Team, 2026) |
-| seaborn | Distribution, box, count and heatmap plots | (Waskom, 2026) |
-| SciPy | Skewness, Pearson correlation, Kruskal-Wallis test, sparse matrices | (SciPy Developers, 2026) |
-| NLTK | Tokenisation, stop word removal, lemmatisation | (NLTK Project, 2026) |
-| scikit-learn | Data split, encoding, TF-IDF, Naive Bayes, Random Forest, cross-validation, metrics | (scikit-learn Developers, 2026) |
-| PyTorch | Tensors and model training backend for BERT | (PyTorch, 2026) |
-| Transformers | BERT tokeniser, classification model and `Trainer` | (Hugging Face, 2026b) |
-| bert-base-uncased | Pretrained BERT weights fine-tuned on `Content_Text` | (Google, 2018) |
-| Accelerate | Required by the Hugging Face `Trainer` | (Hugging Face, 2026a) |
+| Source | Used for |
+|---|---|
+| Python | Standard library modules `os` and `re` |
+| pandas | Loading, cleaning and summarising the dataset |
+| NumPy | Numeric operations and fixed random seed |
+| Matplotlib | Saving all figures |
+| seaborn | Distribution, box, count and heatmap plots |
+| SciPy | Skewness, Pearson correlation, Kruskal-Wallis test, sparse matrices |
+| NLTK | Tokenisation, stop word removal, lemmatisation |
+| scikit-learn | Data split, encoding, TF-IDF, Naive Bayes, Random Forest, cross-validation, metrics |
+| PyTorch | Tensors and model training backend for BERT |
+| Transformers | BERT tokeniser, classification model and `Trainer` |
+| bert-base-uncased | Pretrained BERT weights fine-tuned on `Content_Text` |
+| Accelerate | Required by the Hugging Face `Trainer` |
 
 ### Reference list
 
