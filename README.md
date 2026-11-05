@@ -91,3 +91,49 @@ Each record is one piece of political misinformation text with its metaphor type
 3. Open `research.ipynb` in Jupyter or VS Code and choose **Run All**. Keep the CSV files in the same folder as the notebook.
 
 > ⚠️ The BERT fine-tuning step is slow without a GPU, and its output folder (`bert_output/`) is not included in this repository.
+
+---
+
+## 📚 Code attribution
+
+
+| Source | Used for | In-text citation |
+|---|---|---|
+| Python | Standard library modules `os` and `re` | (Python Software Foundation, 2026) |
+| pandas | Loading, cleaning and summarising the dataset | (The pandas Development Team, 2026) |
+| NumPy | Numeric operations and fixed random seed | (NumPy Developers, 2026) |
+| Matplotlib | Saving all figures | (Matplotlib Development Team, 2026) |
+| seaborn | Distribution, box, count and heatmap plots | (Waskom, 2026) |
+| SciPy | Skewness, Pearson correlation, Kruskal-Wallis test, sparse matrices | (SciPy Developers, 2026) |
+| NLTK | Tokenisation, stop word removal, lemmatisation | (NLTK Project, 2026) |
+| scikit-learn | Data split, encoding, TF-IDF, Naive Bayes, Random Forest, cross-validation, metrics | (scikit-learn Developers, 2026) |
+| PyTorch | Tensors and model training backend for BERT | (PyTorch, 2026) |
+| Transformers | BERT tokeniser, classification model and `Trainer` | (Hugging Face, 2026b) |
+| bert-base-uncased | Pretrained BERT weights fine-tuned on `Content_Text` | (Google, 2018) |
+| Accelerate | Required by the Hugging Face `Trainer` | (Hugging Face, 2026a) |
+
+### Reference list
+
+Google, 2018. *bert-base-uncased* [Pretrained model]. Available at: <https://huggingface.co/google-bert/bert-base-uncased> [Accessed 31 July 2026].
+
+Hugging Face, 2026a. *Accelerate* (Version <version>) [Computer program]. Available at: <https://huggingface.co/docs/accelerate> [Accessed 03 August 2026].
+
+Hugging Face, 2026b. *Transformers* (Version <version>) [Computer program]. Available at: <https://huggingface.co/docs/transformers> [Accessed 28 July 2026].
+
+Matplotlib Development Team, 2026. *Matplotlib* (Version <version>) [Computer program]. Available at: <https://matplotlib.org/> [Accessed 16 June 2026].
+
+NLTK Project, 2026. *Natural Language Toolkit (NLTK)* (Version <version>) [Computer program]. Available at: <https://www.nltk.org/> [Accessed 14 July 2026].
+
+NumPy Developers, 2026. *NumPy* (Version <version>) [Computer program]. Available at: <https://numpy.org/> [Accessed 02 June 2026].
+
+The pandas Development Team, 2026. *pandas* (Version <version>) [Computer program]. Available at: <https://pandas.pydata.org/> [Accessed 19 May 2026].
+
+Python Software Foundation, 2026. *Python* (Version 3.13.5) [Computer program]. Available at: <https://www.python.org/> [Accessed 05 May 2026].
+
+PyTorch, 2026. *PyTorch* (Version <version>) [Computer program]. Available at: <https://pytorch.org/> [Accessed 24 July 2026].
+
+scikit-learn Developers, 2026. *scikit-learn* (Version <version>) [Computer program]. Available at: <https://scikit-learn.org/> [Accessed 21 July 2026].
+
+SciPy Developers, 2026. *SciPy* (Version <version>) [Computer program]. Available at: <https://scipy.org/> [Accessed 07 July 2026].
+
+Waskom, M.L., 2026. *seaborn* (Version <version>) [Computer program]. Available at: <https://seaborn.pydata.org/> [Accessed 30 June 2026].
